@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C771D2365C06BB8F025C29 /* libPods-OverlapTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5FCFCAEA92B16FA304D18C /* libPods-OverlapTests.a */; };
+		032986B5367FBC1A2690E5A8 /* libPods-Overlap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA4169DA144800AE0366EC23 /* libPods-Overlap.a */; };
+		0BC2C790E74C766C12A42452 /* libPods-OverlapUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 654852328AE41E0EFF9B89F0 /* libPods-OverlapUITests.a */; };
+		AB89844E1F36B64600C79681 /* OverlapView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB89844D1F36B64600C79681 /* OverlapView.m */; };
+		AB8984511F36C89400C79681 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8984501F36C89400C79681 /* MainViewController.m */; };
+		AB8984541F36D4E000C79681 /* NaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8984531F36D4E000C79681 /* NaviViewController.m */; };
+		ABE0BCBF1F36B308000D2CED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE0BCBE1F36B308000D2CED /* main.m */; };
+		ABE0BCC21F36B308000D2CED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE0BCC11F36B308000D2CED /* AppDelegate.m */; };
+		ABE0BCC51F36B308000D2CED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE0BCC41F36B308000D2CED /* ViewController.m */; };
+		ABE0BCC81F36B308000D2CED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE0BCC61F36B308000D2CED /* Main.storyboard */; };
+		ABE0BCCA1F36B308000D2CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE0BCC91F36B308000D2CED /* Assets.xcassets */; };
+		ABE0BCCD1F36B308000D2CED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE0BCCB1F36B308000D2CED /* LaunchScreen.storyboard */; };
+		ABE0BCD81F36B308000D2CED /* OverlapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE0BCD71F36B308000D2CED /* OverlapTests.m */; };
+		ABE0BCE31F36B308000D2CED /* OverlapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE0BCE21F36B308000D2CED /* OverlapUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABE0BCD41F36B308000D2CED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABE0BCB21F36B308000D2CED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABE0BCB91F36B308000D2CED;
+			remoteInfo = Overlap;
+		};
+		ABE0BCDF1F36B308000D2CED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABE0BCB21F36B308000D2CED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABE0BCB91F36B308000D2CED;
+			remoteInfo = Overlap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3470825DA4EF558DA4F69CFD /* Pods-Overlap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Overlap.release.xcconfig"; path = "Pods/Target Support Files/Pods-Overlap/Pods-Overlap.release.xcconfig"; sourceTree = "<group>"; };
+		44B27A39B9FEF04F9C7DF6B7 /* Pods-Overlap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Overlap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Overlap/Pods-Overlap.debug.xcconfig"; sourceTree = "<group>"; };
+		5711EDA4ACE27A44B0A55EF6 /* Pods-OverlapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OverlapTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OverlapTests/Pods-OverlapTests.release.xcconfig"; sourceTree = "<group>"; };
+		654852328AE41E0EFF9B89F0 /* libPods-OverlapUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OverlapUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB89844A1F36B51A00C79681 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		AB89844C1F36B64600C79681 /* OverlapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlapView.h; sourceTree = "<group>"; };
+		AB89844D1F36B64600C79681 /* OverlapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlapView.m; sourceTree = "<group>"; };
+		AB89844F1F36C89400C79681 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		AB8984501F36C89400C79681 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		AB8984521F36D4E000C79681 /* NaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaviViewController.h; sourceTree = "<group>"; };
+		AB8984531F36D4E000C79681 /* NaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaviViewController.m; sourceTree = "<group>"; };
+		ABE0BCBA1F36B308000D2CED /* Overlap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Overlap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE0BCBE1F36B308000D2CED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABE0BCC01F36B308000D2CED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABE0BCC11F36B308000D2CED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABE0BCC31F36B308000D2CED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABE0BCC41F36B308000D2CED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABE0BCC71F36B308000D2CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABE0BCC91F36B308000D2CED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABE0BCCC1F36B308000D2CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABE0BCCE1F36B308000D2CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABE0BCD31F36B308000D2CED /* OverlapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OverlapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE0BCD71F36B308000D2CED /* OverlapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverlapTests.m; sourceTree = "<group>"; };
+		ABE0BCD91F36B308000D2CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABE0BCDE1F36B308000D2CED /* OverlapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OverlapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE0BCE21F36B308000D2CED /* OverlapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverlapUITests.m; sourceTree = "<group>"; };
+		ABE0BCE41F36B308000D2CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF3E8761B10B78A006D65519 /* Pods-OverlapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OverlapUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OverlapUITests/Pods-OverlapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C49978D8C0C6D73BD68EE0D1 /* Pods-OverlapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OverlapUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OverlapUITests/Pods-OverlapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CA4169DA144800AE0366EC23 /* libPods-Overlap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Overlap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5FCFCAEA92B16FA304D18C /* libPods-OverlapTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OverlapTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0CCE15E878B48BAB72E2813 /* Pods-OverlapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OverlapTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OverlapTests/Pods-OverlapTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABE0BCB71F36B308000D2CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032986B5367FBC1A2690E5A8 /* libPods-Overlap.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE0BCD01F36B308000D2CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C771D2365C06BB8F025C29 /* libPods-OverlapTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE0BCDB1F36B308000D2CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC2C790E74C766C12A42452 /* libPods-OverlapUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FCE4FB1A76B7FE3140304C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA4169DA144800AE0366EC23 /* libPods-Overlap.a */,
+				CC5FCFCAEA92B16FA304D18C /* libPods-OverlapTests.a */,
+				654852328AE41E0EFF9B89F0 /* libPods-OverlapUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EA096F85C556F40BB52E572 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44B27A39B9FEF04F9C7DF6B7 /* Pods-Overlap.debug.xcconfig */,
+				3470825DA4EF558DA4F69CFD /* Pods-Overlap.release.xcconfig */,
+				F0CCE15E878B48BAB72E2813 /* Pods-OverlapTests.debug.xcconfig */,
+				5711EDA4ACE27A44B0A55EF6 /* Pods-OverlapTests.release.xcconfig */,
+				BF3E8761B10B78A006D65519 /* Pods-OverlapUITests.debug.xcconfig */,
+				C49978D8C0C6D73BD68EE0D1 /* Pods-OverlapUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB89844B1F36B63500C79681 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AB89844C1F36B64600C79681 /* OverlapView.h */,
+				AB89844D1F36B64600C79681 /* OverlapView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ABE0BCB11F36B308000D2CED = {
+			isa = PBXGroup;
+			children = (
+				ABE0BCBC1F36B308000D2CED /* Overlap */,
+				ABE0BCD61F36B308000D2CED /* OverlapTests */,
+				ABE0BCE11F36B308000D2CED /* OverlapUITests */,
+				ABE0BCBB1F36B308000D2CED /* Products */,
+				8EA096F85C556F40BB52E572 /* Pods */,
+				0FCE4FB1A76B7FE3140304C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ABE0BCBB1F36B308000D2CED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABE0BCBA1F36B308000D2CED /* Overlap.app */,
+				ABE0BCD31F36B308000D2CED /* OverlapTests.xctest */,
+				ABE0BCDE1F36B308000D2CED /* OverlapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABE0BCBC1F36B308000D2CED /* Overlap */ = {
+			isa = PBXGroup;
+			children = (
+				AB89844B1F36B63500C79681 /* Classes */,
+				ABE0BCC01F36B308000D2CED /* AppDelegate.h */,
+				ABE0BCC11F36B308000D2CED /* AppDelegate.m */,
+				ABE0BCC31F36B308000D2CED /* ViewController.h */,
+				ABE0BCC41F36B308000D2CED /* ViewController.m */,
+				AB89844F1F36C89400C79681 /* MainViewController.h */,
+				AB8984501F36C89400C79681 /* MainViewController.m */,
+				AB8984521F36D4E000C79681 /* NaviViewController.h */,
+				AB8984531F36D4E000C79681 /* NaviViewController.m */,
+				ABE0BCC61F36B308000D2CED /* Main.storyboard */,
+				ABE0BCC91F36B308000D2CED /* Assets.xcassets */,
+				ABE0BCCB1F36B308000D2CED /* LaunchScreen.storyboard */,
+				ABE0BCCE1F36B308000D2CED /* Info.plist */,
+				ABE0BCBD1F36B308000D2CED /* Supporting Files */,
+			);
+			path = Overlap;
+			sourceTree = "<group>";
+		};
+		ABE0BCBD1F36B308000D2CED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABE0BCBE1F36B308000D2CED /* main.m */,
+				AB89844A1F36B51A00C79681 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABE0BCD61F36B308000D2CED /* OverlapTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABE0BCD71F36B308000D2CED /* OverlapTests.m */,
+				ABE0BCD91F36B308000D2CED /* Info.plist */,
+			);
+			path = OverlapTests;
+			sourceTree = "<group>";
+		};
+		ABE0BCE11F36B308000D2CED /* OverlapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABE0BCE21F36B308000D2CED /* OverlapUITests.m */,
+				ABE0BCE41F36B308000D2CED /* Info.plist */,
+			);
+			path = OverlapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABE0BCB91F36B308000D2CED /* Overlap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABE0BCE71F36B308000D2CED /* Build configuration list for PBXNativeTarget "Overlap" */;
+			buildPhases = (
+				9847AF7CA06BD790B02CB9E9 /* [CP] Check Pods Manifest.lock */,
+				ABE0BCB61F36B308000D2CED /* Sources */,
+				ABE0BCB71F36B308000D2CED /* Frameworks */,
+				ABE0BCB81F36B308000D2CED /* Resources */,
+				777A3382C9D0F66B3524AD10 /* [CP] Embed Pods Frameworks */,
+				085545C1CCE819E84531480C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Overlap;
+			productName = Overlap;
+			productReference = ABE0BCBA1F36B308000D2CED /* Overlap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABE0BCD21F36B308000D2CED /* OverlapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABE0BCEA1F36B308000D2CED /* Build configuration list for PBXNativeTarget "OverlapTests" */;
+			buildPhases = (
+				92F29752C376D3BBF98AF9AF /* [CP] Check Pods Manifest.lock */,
+				ABE0BCCF1F36B308000D2CED /* Sources */,
+				ABE0BCD01F36B308000D2CED /* Frameworks */,
+				ABE0BCD11F36B308000D2CED /* Resources */,
+				511AFCEFAF528D4E9A70B62A /* [CP] Embed Pods Frameworks */,
+				8F1B27DE56DA04CCDA9AD04F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABE0BCD51F36B308000D2CED /* PBXTargetDependency */,
+			);
+			name = OverlapTests;
+			productName = OverlapTests;
+			productReference = ABE0BCD31F36B308000D2CED /* OverlapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABE0BCDD1F36B308000D2CED /* OverlapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABE0BCED1F36B308000D2CED /* Build configuration list for PBXNativeTarget "OverlapUITests" */;
+			buildPhases = (
+				6F9EB57510FBC3C7A9DD58E9 /* [CP] Check Pods Manifest.lock */,
+				ABE0BCDA1F36B308000D2CED /* Sources */,
+				ABE0BCDB1F36B308000D2CED /* Frameworks */,
+				ABE0BCDC1F36B308000D2CED /* Resources */,
+				FC58294CEECFAAE7F62FAA09 /* [CP] Embed Pods Frameworks */,
+				3A82006FD351B172F55D9AE8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABE0BCE01F36B308000D2CED /* PBXTargetDependency */,
+			);
+			name = OverlapUITests;
+			productName = OverlapUITests;
+			productReference = ABE0BCDE1F36B308000D2CED /* OverlapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABE0BCB21F36B308000D2CED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = jv;
+				TargetAttributes = {
+					ABE0BCB91F36B308000D2CED = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Manual;
+					};
+					ABE0BCD21F36B308000D2CED = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ABE0BCB91F36B308000D2CED;
+					};
+					ABE0BCDD1F36B308000D2CED = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ABE0BCB91F36B308000D2CED;
+					};
+				};
+			};
+			buildConfigurationList = ABE0BCB51F36B308000D2CED /* Build configuration list for PBXProject "Overlap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABE0BCB11F36B308000D2CED;
+			productRefGroup = ABE0BCBB1F36B308000D2CED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABE0BCB91F36B308000D2CED /* Overlap */,
+				ABE0BCD21F36B308000D2CED /* OverlapTests */,
+				ABE0BCDD1F36B308000D2CED /* OverlapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABE0BCB81F36B308000D2CED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE0BCCD1F36B308000D2CED /* LaunchScreen.storyboard in Resources */,
+				ABE0BCCA1F36B308000D2CED /* Assets.xcassets in Resources */,
+				ABE0BCC81F36B308000D2CED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE0BCD11F36B308000D2CED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE0BCDC1F36B308000D2CED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		085545C1CCE819E84531480C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Overlap/Pods-Overlap-resources.sh",
+				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Overlap/Pods-Overlap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A82006FD351B172F55D9AE8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OverlapUITests/Pods-OverlapUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		511AFCEFAF528D4E9A70B62A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OverlapTests/Pods-OverlapTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F9EB57510FBC3C7A9DD58E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OverlapUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		777A3382C9D0F66B3524AD10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Overlap/Pods-Overlap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F1B27DE56DA04CCDA9AD04F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OverlapTests/Pods-OverlapTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92F29752C376D3BBF98AF9AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OverlapTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9847AF7CA06BD790B02CB9E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Overlap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC58294CEECFAAE7F62FAA09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OverlapUITests/Pods-OverlapUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABE0BCB61F36B308000D2CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB89844E1F36B64600C79681 /* OverlapView.m in Sources */,
+				ABE0BCC51F36B308000D2CED /* ViewController.m in Sources */,
+				ABE0BCC21F36B308000D2CED /* AppDelegate.m in Sources */,
+				AB8984511F36C89400C79681 /* MainViewController.m in Sources */,
+				AB8984541F36D4E000C79681 /* NaviViewController.m in Sources */,
+				ABE0BCBF1F36B308000D2CED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE0BCCF1F36B308000D2CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE0BCD81F36B308000D2CED /* OverlapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE0BCDA1F36B308000D2CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE0BCE31F36B308000D2CED /* OverlapUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABE0BCD51F36B308000D2CED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABE0BCB91F36B308000D2CED /* Overlap */;
+			targetProxy = ABE0BCD41F36B308000D2CED /* PBXContainerItemProxy */;
+		};
+		ABE0BCE01F36B308000D2CED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABE0BCB91F36B308000D2CED /* Overlap */;
+			targetProxy = ABE0BCDF1F36B308000D2CED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABE0BCC61F36B308000D2CED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABE0BCC71F36B308000D2CED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABE0BCCB1F36B308000D2CED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABE0BCCC1F36B308000D2CED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABE0BCE51F36B308000D2CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABE0BCE61F36B308000D2CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABE0BCE81F36B308000D2CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44B27A39B9FEF04F9C7DF6B7 /* Pods-Overlap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = Overlap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.Overlap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		ABE0BCE91F36B308000D2CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3470825DA4EF558DA4F69CFD /* Pods-Overlap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = Overlap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.Overlap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		ABE0BCEB1F36B308000D2CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0CCE15E878B48BAB72E2813 /* Pods-OverlapTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OverlapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.OverlapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Overlap.app/Overlap";
+			};
+			name = Debug;
+		};
+		ABE0BCEC1F36B308000D2CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5711EDA4ACE27A44B0A55EF6 /* Pods-OverlapTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OverlapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.OverlapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Overlap.app/Overlap";
+			};
+			name = Release;
+		};
+		ABE0BCEE1F36B308000D2CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF3E8761B10B78A006D65519 /* Pods-OverlapUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = OverlapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.OverlapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Overlap;
+			};
+			name = Debug;
+		};
+		ABE0BCEF1F36B308000D2CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C49978D8C0C6D73BD68EE0D1 /* Pods-OverlapUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = OverlapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.OverlapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Overlap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABE0BCB51F36B308000D2CED /* Build configuration list for PBXProject "Overlap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE0BCE51F36B308000D2CED /* Debug */,
+				ABE0BCE61F36B308000D2CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABE0BCE71F36B308000D2CED /* Build configuration list for PBXNativeTarget "Overlap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE0BCE81F36B308000D2CED /* Debug */,
+				ABE0BCE91F36B308000D2CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABE0BCEA1F36B308000D2CED /* Build configuration list for PBXNativeTarget "OverlapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE0BCEB1F36B308000D2CED /* Debug */,
+				ABE0BCEC1F36B308000D2CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABE0BCED1F36B308000D2CED /* Build configuration list for PBXNativeTarget "OverlapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE0BCEE1F36B308000D2CED /* Debug */,
+				ABE0BCEF1F36B308000D2CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABE0BCB21F36B308000D2CED /* Project object */;
+}
