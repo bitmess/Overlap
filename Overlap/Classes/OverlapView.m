@@ -77,6 +77,29 @@ static CGFloat const kContainerHeight = 50;
     _move = (_lapTop.height - (_lapBottom.top - _lapTop.top)) / 2;
     _minTop = _lapTop.top - _move;
     
+    
+    //custom view
+    UILabel *label = [UILabel new];
+    label.font = [UIFont systemFontOfSize:40];
+    label.textColor = [UIColor whiteColor];
+    label.backgroundColor = [UIColor clearColor];
+    label.text = @"label1";
+    [_lapTop addSubview:label];
+    [label mas_makeConstraints:^(MASConstraintMaker *make){
+        make.center.equalTo(@0);
+    }];
+
+    
+    label = [UILabel new];
+    label.font = [UIFont systemFontOfSize:40];
+    label.textColor = [UIColor whiteColor];
+    label.backgroundColor = [UIColor clearColor];
+    label.text = @"label2";
+    [_lapBottom addSubview:label];
+    [label mas_makeConstraints:^(MASConstraintMaker *make){
+        make.center.equalTo(@0);
+    }];
+
 }
 
 #pragma mark - action
